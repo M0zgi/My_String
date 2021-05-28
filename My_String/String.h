@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <Windows.h>
@@ -16,22 +16,22 @@ private:
 
 public:
 
-	//конструктор по умолчанию str = nullptr
+	//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ str = nullptr
 	MyString();
 
 	MyString(const char* _str);
 
-	//оператор присваивания
+	//РѕРїРµСЂР°С‚РѕСЂ РїСЂРёСЃРІР°РёРІР°РЅРёСЏ
 	MyString& operator =(const MyString& obj);
 
-	//констурктор копирования
+	//РєРѕРЅСЃС‚СѓСЂРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
 	MyString(const MyString& obj);
 
-   //Конкатенация строк (объединение)
+   //РљРѕРЅРєР°С‚РµРЅР°С†РёСЏ СЃС‚СЂРѕРє (РѕР±СЉРµРґРёРЅРµРЅРёРµ)
 	MyString operator +(const MyString& obj);
 
 
-	//вывод в консоль строки
+	//РІС‹РІРѕРґ РІ РєРѕРЅСЃРѕР»СЊ СЃС‚СЂРѕРєРё
 	void Print();
 	
 
